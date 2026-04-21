@@ -1,8 +1,26 @@
-# pneumonia-xray
-Explainable AI for pneumonia detection using ResNet and DenseNet
+# Pneumonia Detection using Explainable AI
+
+## Overview
+This project applies deep learning models to detect pneumonia from chest X-ray images and uses Grad-CAM for interpretability.
 
 ## Dataset
+NIH Chest X-ray dataset  
+(Dataset not included due to size)
 
-The dataset used in this project is the NIH Chest X-ray dataset.
+Link: https://drive.google.com/drive/folders/1oQRYAkZ4QgWUOc4AVUTHVNKiRBu-pPq1?usp=sharing
 
-Link:https://www.kaggle.com/datasets/nih-chest-xrays/data
+## Models Used
+- ResNet18
+- DenseNet121
+
+## Techniques
+- Transfer learning
+- Data preprocessing and balancing
+- Model evaluation (accuracy, ROC-AUC)
+- Grad-CAM for explainability
+
+## How to Run
+Open the notebook and run all cells step by step.
+
+## Author
+Dekshina Udayan
